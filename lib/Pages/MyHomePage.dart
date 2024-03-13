@@ -17,9 +17,8 @@ class _MyHomePageState extends State<MyHomePage> {
           centerTitle: true,
           title: const Text(
             "Resume Builder",
-            style: TextStyle(fontSize: 25, color: Colors.white),
+            style: TextStyle(fontSize: 25,),
           ),
-          backgroundColor: Theme.of(context).primaryColor,
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
@@ -31,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
         icon: Icon(
           Icons.add,
           color: Colors.white,
-          size: 50,
+          size: 35,
         ),
       ),
       body: Column(
